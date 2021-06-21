@@ -50,4 +50,7 @@
     - 13_Apriori算法实现
     - 14_FP-Growth算法实现
     - 15-总结
+  - 03.Hadoop
+    - 01_hadoop概述
+    - 02_02_分布式文件系统HDFS
 
