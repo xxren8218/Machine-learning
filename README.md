@@ -55,4 +55,8 @@
     - 02_02_分布式文件系统HDFS
     - 03_YARN & MapReduce
     - 04_MapReduce实战——MRJob实现
+    - 05_MapReduce原理详解
+    - 06_hadoop概念扩展——生态与HDFS的读写等
+    - 07_大数据产品与互联网产品结合
+    - 08_总结
 
