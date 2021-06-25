@@ -53,4 +53,6 @@
   - 03.Hadoop
     - 01_hadoop概述
     - 02_02_分布式文件系统HDFS
+    - 03_YARN & MapReduce
+    - 04_MapReduce实战——MRJob实现
 
