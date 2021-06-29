@@ -467,7 +467,7 @@ Hive是数据仓库工具，没有集群的概念，如果想提交Hive作业只
 
 - 创建表
 
-  ```
+  ```sql
   create table employee2 (name string,salary bigint) partitioned by (date1 string) row format delimited fields terminated by ',' lines terminated by '\n' stored as textfile;
   ```
 
@@ -547,7 +547,7 @@ https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF
   - 把 hive目录下 lib/hive-contrib-hive-contrib-1.1.0-cdh5.7.0.jar 放到hdfs中
 
     ```shell
-    hadoop fs -put hive-contrib-1.1.0-cdh5.7.0.jar /user/hive/lib/
+    hadoop fs -put hive-contrib-1.1.0-cdh2.3.4.jar /user/hive/lib/
     ```
 
   - 把集群中jar包的位置添加到hive中
@@ -769,8 +769,8 @@ https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF
   ``` sql
     select user_id,sort_array(collect_list(article_id)) as contents 
     from user_actions group by user_id;
-    ```
-    
+  ```
+  
   ``` shell
     11      ["101","101","101","104"]
     22      ["102","103","103","104"]
@@ -778,8 +778,8 @@ https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF
     35      ["102","105"]
     77      ["103","104"]
     99      ["102","105"]
-    ```
-    
+  ```
+  
   - 如上所示：11与77都含有"104",在Array里面不好统计次数。所以将其展开——拆分。
     
   - 查看每一篇文章的关键字 lateral view explode

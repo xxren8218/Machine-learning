@@ -62,5 +62,6 @@
   - 04.Hive & HBase
     - 01_Hive
     - 02_HBase
-    - 03_总结
+    - 03_Sqoop
+    - 04_总结
 
