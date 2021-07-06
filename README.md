@@ -64,11 +64,15 @@
     - 02_Sqoop
     - 03_HBase
     - 04_总结
-  
   - 05.Spark core
     - 01_Spark概述
     - 02_spark-core概述
     - 03_spark_core实战
     - 04_spark_core概念补充
     - 05_总结
+  - 06.Spark SQL & Spark streaming
+    - 01-Spark SQL概述 & Spark DataFrame
+    - 02_Spark JSON数据处理 & 数据清洗
+    - 03_Spark Streaming概述及编码实战
+    - 04_Spark Streaming的状态操作
 
